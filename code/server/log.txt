@@ -1,0 +1,85 @@
+[ok] COUCOU at 17h18 and 17 seconds
+[ok] Veryphone server started at 17h18 and 17 seconds
+[ok] COUCOU at 17h18 and 31 seconds
+[ok] Veryphone server started at 17h18 and 31 seconds
+[ok] COUCOU at 17h18 and 52 seconds
+[e] Veryphone server started at 17h18 and 52 seconds
+[ok] COUCOU at 17h18 and 53 seconds
+[e] Veryphone server started at 17h18 and 53 seconds
+[ok] COUCOU at 17h18 and 54 seconds
+[e] Veryphone server started at 17h18 and 54 seconds
+[ok] COUCOU at 17h18 and 54 seconds
+[e] Veryphone server started at 17h18 and 54 seconds
+[ok] COUCOU at 17h18 and 55 seconds
+[e] Veryphone server started at 17h18 and 55 seconds
+[ok] COUCOU at 17h18 and 55 seconds
+[e] Veryphone server started at 17h18 and 55 seconds
+[ok] COUCOU at 17h18 and 56 seconds
+[e] Veryphone server started at 17h18 and 56 seconds
+[ok] COUCOU at 17h18 and 56 seconds
+[e] Veryphone server started at 17h18 and 56 seconds
+[ok] COUCOU at 17h18 and 57 seconds
+[e] Veryphone server started at 17h18 and 57 seconds
+[ok] COUCOU at 17h18 and 57 seconds
+[e] Veryphone server started at 17h18 and 57 seconds
+[ok] COUCOU at 17h18 and 58 seconds
+[e] Veryphone server started at 17h18 and 58 seconds
+[ok] COUCOU at 17h18 and 58 seconds
+[e] Veryphone server started at 17h18 and 58 seconds
+[ok] COUCOU at 17h18 and 59 seconds
+[e] Veryphone server started at 17h18 and 59 seconds
+[ok] COUCOU at 17h19 and 0 seconds
+[e] Veryphone server started at 17h19 and 0 seconds
+[ok] COUCOU at 17h19 and 0 seconds
+[e] Veryphone server started at 17h19 and 0 seconds
+[ok] COUCOU at 17h19 and 1 seconds
+[e] Veryphone server started at 17h19 and 1 seconds
+[ok] COUCOU at 17h19 and 1 seconds
+[e] Veryphone server started at 17h19 and 1 seconds
+[ok] COUCOU at 17h19 and 2 seconds
+[e] Veryphone server started at 17h19 and 2 seconds
+[ok] COUCOU at 17h19 and 3 seconds
+[e] Veryphone server started at 17h19 and 3 seconds
+[e] Veryphone server started at 17h21 and 42 seconds
+[e] Veryphone server started at 17h21 and 44 seconds
+[ok] Veryphone server started at 17h3 and 1 seconds
+[e] Veryphone server started at 17h3 and 22 seconds
+[ok] Veryphone server started at 17h5 and 34 seconds
+[ok] Veryphone web function started at 17h5 and 34 seconds
+ Web server init at 17h5 and 34 seconds
+[ok] Veryphone server started at 17h9 and 33 seconds
+[ok] Veryphone web function started at 17h9 and 33 seconds
+ Web server init at 17h9 and 33 seconds
+ We've got incoming request for main at 17h9 and 37 seconds
+ We've got incoming request for main at 17h9 and 37 seconds
+[ok] Veryphone server started at 17h10 and 20 seconds
+[ok] Veryphone web function started at 17h10 and 20 seconds
+ Web server init at 17h10 and 20 seconds
+ We've got incoming request for main at 17h10 and 23 seconds
+[ok] Veryphone server started at 17h12 and 13 seconds
+[ok] Veryphone web function started at 17h12 and 13 seconds
+ Web server init at 17h12 and 13 seconds
+ We've got incoming request for main at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 16 seconds
+ We've got incoming request for main at 17h12 and 18 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 18 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 18 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 18 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 18 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 18 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 18 seconds
+ 404 : request on a page that doesn't exists at 17h12 and 18 seconds
+[e] Veryphone server started at 19h21 and 57 seconds
+[ok] Veryphone web function started at 19h21 and 57 seconds
+ Web server init at 19h21 and 57 seconds
+ We've got incoming request for main at 19h22 and 0 seconds
+ 404 : request on a page that doesn't exists at 19h22 and 0 seconds
+ We've got incoming request for main at 19h22 and 10 seconds
+ 404 : request on a page that doesn't exists at 19h22 and 10 seconds

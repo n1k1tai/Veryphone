@@ -1,0 +1,557 @@
+[e] Veryphone server started at 15h14 and 47 seconds
+[e] Veryphone server started at 15h14 and 48 seconds
+[e] Veryphone server started at 15h14 and 49 seconds
+[e] Veryphone server started at 15h14 and 50 seconds
+[e] Veryphone server started at 15h14 and 50 seconds
+[ok] Veryphone server started at 15h15 and 59 seconds
+[ok] Veryphone server started at 15h29 and 6 seconds
+ Web server init at 15h29 and 6 seconds
+[ok] Veryphone server started at 15h34 and 45 seconds
+ Web server init at 15h34 and 45 seconds
+[ok] Veryphone server started at 15h38 and 9 seconds
+[ok] Veryphone server started at 15h38 and 9 seconds
+ Web server init at 15h38 and 9 seconds
+[ok] Veryphone server started at 17h7 and 59 seconds
+[ok] Veryphone web function started at 17h7 and 59 seconds
+ Web server init at 17h7 and 59 seconds
+ We've got incoming request for main at 17h8 and 3 seconds
+ We've got incoming request for main at 17h8 and 5 seconds
+[ok] Veryphone server started at 19h6 and 39 seconds
+[ok] Veryphone web function started at 19h6 and 39 seconds
+ Web server init at 19h6 and 39 seconds
+ We've got incoming request for main at 19h6 and 54 seconds
+ 404 : request on a page that doesn't exists at 19h6 and 54 seconds
+[e] Veryphone server started at 19h10 and 36 seconds
+[e] Veryphone server started at 19h10 and 39 seconds
+[e] Veryphone server started at 19h10 and 40 seconds
+[e] Veryphone server started at 19h10 and 50 seconds
+[e] Veryphone server started at 19h10 and 55 seconds
+[e] Veryphone server started at 19h11 and 20 seconds
+[e] Veryphone server started at 19h11 and 21 seconds
+[e] Veryphone server started at 19h11 and 47 seconds
+[e] Veryphone server started at 19h11 and 48 seconds
+[e] Veryphone server started at 19h13 and 56 seconds
+[ok] Veryphone web function started at 19h13 and 56 seconds
+ Web server init at 19h13 and 56 seconds
+ We've got incoming request for main at 19h14 and 10 seconds
+ 404 : request on a page that doesn't exists at 19h14 and 10 seconds
+ We've got incoming request for main at 19h14 and 11 seconds
+ 404 : request on a page that doesn't exists at 19h14 and 11 seconds
+ We've got incoming request for main at 19h14 and 11 seconds
+ 404 : request on a page that doesn't exists at 19h14 and 11 seconds
+ We've got incoming request for main at 19h14 and 12 seconds
+ 404 : request on a page that doesn't exists at 19h14 and 12 seconds
+[e] Veryphone server started at 19h14 and 29 seconds
+[ok] Veryphone web function started at 19h14 and 29 seconds
+ Web server init at 19h14 and 29 seconds
+ We've got incoming request for main at 19h14 and 35 seconds
+ 404 : request on a page that doesn't exists at 19h14 and 35 seconds
+ We've got incoming request for main at 19h14 and 36 seconds
+ 404 : request on a page that doesn't exists at 19h14 and 36 seconds
+[e] Veryphone server started at 19h18 and 12 seconds
+[ok] Veryphone web function started at 19h18 and 12 seconds
+ Web server init at 19h18 and 12 seconds
+ We've got incoming request for main at 19h18 and 16 seconds
+ 404 : request on a page that doesn't exists at 19h18 and 16 seconds
+ We've got incoming request for main at 19h18 and 17 seconds
+ 404 : request on a page that doesn't exists at 19h18 and 17 seconds
+ We've got incoming request for main at 19h18 and 18 seconds
+ 404 : request on a page that doesn't exists at 19h18 and 18 seconds
+ We've got incoming request for main at 19h18 and 18 seconds
+ 404 : request on a page that doesn't exists at 19h18 and 19 seconds
+[e] Veryphone server started at 19h20 and 28 seconds
+[ok] Veryphone web function started at 19h20 and 28 seconds
+ Web server init at 19h20 and 28 seconds
+ We've got incoming request for main at 19h20 and 32 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 32 seconds
+ We've got incoming request for main at 19h20 and 33 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 33 seconds
+ We've got incoming request for main at 19h20 and 34 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 34 seconds
+ We've got incoming request for main at 19h20 and 35 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 35 seconds
+ We've got incoming request for main at 19h20 and 38 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 38 seconds
+ We've got incoming request for main at 19h20 and 39 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 39 seconds
+ We've got incoming request for main at 19h20 and 40 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 40 seconds
+ We've got incoming request for main at 19h20 and 41 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 41 seconds
+ We've got incoming request for main at 19h20 and 42 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 42 seconds
+ We've got incoming request for main at 19h20 and 43 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 43 seconds
+ We've got incoming request for main at 19h20 and 43 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 43 seconds
+ We've got incoming request for main at 19h20 and 44 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 44 seconds
+ We've got incoming request for main at 19h20 and 45 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 45 seconds
+ We've got incoming request for main at 19h20 and 45 seconds
+ 404 : request on a page that doesn't exists at 19h20 and 45 seconds
+[e] Veryphone server started at 19h22 and 33 seconds
+[ok] Veryphone web function started at 19h22 and 33 seconds
+ Web server init at 19h22 and 33 seconds
+ We've got incoming request for main at 19h22 and 37 seconds
+ 404 : request on a page that doesn't exists at 19h22 and 37 seconds
+ We've got incoming request for main at 19h22 and 38 seconds
+ 404 : request on a page that doesn't exists at 19h22 and 38 seconds
+ We've got incoming request for main at 19h22 and 39 seconds
+ 404 : request on a page that doesn't exists at 19h22 and 39 seconds
+[e] Veryphone server started at 19h25 and 19 seconds
+[ok] Veryphone web function started at 19h25 and 19 seconds
+ Web server init at 19h25 and 19 seconds
+ We've got incoming request for main at 19h25 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h25 and 22 seconds
+ We've got incoming request for main at 19h25 and 23 seconds
+ 404 : request on a page that doesn't exists at 19h25 and 23 seconds
+[e] Veryphone server started at 19h25 and 39 seconds
+[ok] Veryphone web function started at 19h25 and 39 seconds
+ Web server init at 19h25 and 39 seconds
+ We've got incoming request for main at 19h25 and 42 seconds
+ 404 : request on a page that doesn't exists at 19h25 and 42 seconds
+ We've got incoming request for main at 19h25 and 43 seconds
+ 404 : request on a page that doesn't exists at 19h25 and 43 seconds
+[e] Veryphone server started at 19h26 and 10 seconds
+[ok] Veryphone web function started at 19h26 and 10 seconds
+ Web server init at 19h26 and 10 seconds
+ We've got incoming request for main at 19h26 and 12 seconds
+ 404 : request on a page that doesn't exists at 19h26 and 12 seconds
+ We've got incoming request for main at 19h26 and 13 seconds
+ 404 : request on a page that doesn't exists at 19h26 and 13 seconds
+ We've got incoming request for main at 19h26 and 14 seconds
+ 404 : request on a page that doesn't exists at 19h26 and 14 seconds
+ We've got incoming request for main at 19h26 and 33 seconds
+ 404 : request on a page that doesn't exists at 19h26 and 33 seconds
+ We've got incoming request for main at 19h26 and 34 seconds
+ 404 : request on a page that doesn't exists at 19h26 and 34 seconds
+ We've got incoming request for main at 19h26 and 35 seconds
+ 404 : request on a page that doesn't exists at 19h26 and 35 seconds
+ We've got incoming request for main at 19h26 and 36 seconds
+ 404 : request on a page that doesn't exists at 19h26 and 36 seconds
+[e] Veryphone server started at 19h27 and 10 seconds
+[ok] Veryphone web function started at 19h27 and 10 seconds
+ Web server init at 19h27 and 10 seconds
+ We've got incoming request for main at 19h27 and 15 seconds
+ 404 : request on a page that doesn't exists at 19h27 and 15 seconds
+ We've got incoming request for main at 19h27 and 16 seconds
+ 404 : request on a page that doesn't exists at 19h27 and 16 seconds
+ We've got incoming request for inscription at 19h27 and 26 seconds
+ 404 : request on a page that doesn't exists at 19h27 and 26 seconds
+ 404 : request on a page that doesn't exists at 19h27 and 29 seconds
+ 404 : request on a page that doesn't exists at 19h27 and 29 seconds
+[e] Veryphone server started at 19h27 and 58 seconds
+[ok] Veryphone web function started at 19h27 and 58 seconds
+ Web server init at 19h27 and 58 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 1 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 1 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 2 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 2 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 3 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 3 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 4 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 4 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 5 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 5 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 5 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 5 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 6 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 6 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 8 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+ 404 : request on a page that doesn't exists at 19h28 and 9 seconds
+[e] Veryphone server started at 19h30 and 6 seconds
+[ok] Veryphone web function started at 19h30 and 6 seconds
+ Web server init at 19h30 and 6 seconds
+ 404 : request on a page that doesn't exists at 19h30 and 11 seconds
+ 404 : request on a page that doesn't exists at 19h30 and 12 seconds
+[e] Veryphone server started at 19h31 and 2 seconds
+[ok] Veryphone web function started at 19h31 and 2 seconds
+ Web server init at 19h31 and 2 seconds
+ 404 : request on a page that doesn't exists at 19h31 and 7 seconds
+ 404 : request on a page that doesn't exists at 19h31 and 7 seconds
+[e] Veryphone server started at 19h31 and 42 seconds
+[ok] Veryphone web function started at 19h31 and 42 seconds
+ Web server init at 19h31 and 42 seconds
+ 404 : request on a page that doesn't exists at 19h31 and 44 seconds
+ 404 : request on a page that doesn't exists at 19h31 and 44 seconds
+ 404 : request on a page that doesn't exists at 19h31 and 47 seconds
+ 404 : request on a page that doesn't exists at 19h31 and 47 seconds
+ 404 : request on a page that doesn't exists at 19h32 and 4 seconds
+ 404 : request on a page that doesn't exists at 19h32 and 4 seconds
+ 404 : request on a page that doesn't exists at 19h32 and 4 seconds
+ 404 : request on a page that doesn't exists at 19h32 and 4 seconds
+[e] Veryphone server started at 19h33 and 13 seconds
+[ok] Veryphone web function started at 19h33 and 13 seconds
+ Web server init at 19h33 and 13 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 16 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 16 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 17 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 17 seconds
+ We've got incoming request for main at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+ 404 : request on a page that doesn't exists at 19h33 and 22 seconds
+[e] Veryphone server started at 19h41 and 19 seconds
+[ok] Veryphone web function started at 19h41 and 19 seconds
+ Web server init at 19h41 and 19 seconds
+ We've got incoming request for main at 19h41 and 24 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 24 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 24 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 24 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 24 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 24 seconds
+ We've got incoming request for main at 19h41 and 33 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 33 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 33 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 33 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 33 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 33 seconds
+ We've got incoming request for main at 19h41 and 34 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 34 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 34 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 34 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 34 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 34 seconds
+ We've got incoming request for main at 19h41 and 36 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 36 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 36 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 36 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 36 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 36 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 42 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 47 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 49 seconds
+[e] 404 : request on a page that doesn't exists at 19h41 and 49 seconds
+[e] 404 : request on a page that doesn't exists at 19h42 and 0 seconds
+[e] 404 : request on a page that doesn't exists at 19h42 and 1 seconds
+[e] 404 : request on a page that doesn't exists at 19h42 and 22 seconds
+[e] 404 : request on a page that doesn't exists at 19h42 and 24 seconds
+[e] 404 : request on a page that doesn't exists at 19h43 and 9 seconds
+[e] Veryphone server started at 19h43 and 24 seconds
+[ok] Veryphone web function started at 19h43 and 24 seconds
+ Web server init at 19h43 and 24 seconds
+ We've got incoming request for main at 19h43 and 31 seconds
+[e] 404 : request on a page that doesn't exists at 19h43 and 31 seconds
+[e] 404 : request on a page that doesn't exists at 19h43 and 31 seconds
+[e] 404 : request on a page that doesn't exists at 19h43 and 31 seconds
+[e] 404 : request on a page that doesn't exists at 19h43 and 31 seconds
+[e] 404 : request on a page that doesn't exists at 19h43 and 31 seconds
+[e] Veryphone server started at 19h46 and 17 seconds
+[ok] Veryphone web function started at 19h46 and 17 seconds
+[info] Web server init at 19h46 and 17 seconds
+[info] We've got incoming request for main at 19h46 and 23 seconds
+[e] 404 : request on a page that doesn't exists at 19h46 and 23 seconds
+[e] 404 : request on a page that doesn't exists at 19h46 and 23 seconds
+[e] 404 : request on a page that doesn't exists at 19h46 and 23 seconds
+[e] 404 : request on a page that doesn't exists at 19h46 and 23 seconds
+[e] 404 : request on a page that doesn't exists at 19h46 and 23 seconds
+[e] Veryphone server started at 19h51 and 12 seconds
+[ok] Veryphone web function started at 19h51 and 12 seconds
+[info] Web server init at 19h51 and 12 seconds
+[info] We've got incoming request for main at 19h51 and 21 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/main.css at 19h51 and 21 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/Images/masseffect.jpeg at 19h51 and 21 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/Images/bazant.jpg at 19h51 and 21 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/Lol.ogv at 19h51 and 21 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/Images/ocean.jpg at 19h51 and 21 seconds
+[e] Veryphone server started at 19h55 and 21 seconds
+[ok] Veryphone web function started at 19h55 and 21 seconds
+[info] Web server init at 19h55 and 21 seconds
+[info] We've got incoming request for main at 19h55 and 24 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/inscription/inscription.html at 19h55 and 45 seconds
+[e] Veryphone server started at 20h12 and 38 seconds
+[ok] Veryphone web function started at 20h12 and 38 seconds
+[info] Web server init at 20h12 and 38 seconds
+[e] Veryphone server started at 20h13 and 50 seconds
+[ok] Veryphone web function started at 20h13 and 50 seconds
+[info] Web server init at 20h13 and 50 seconds
+[info] We've got incoming request for main at 20h13 and 55 seconds
+[info] We've got incoming request for main at 20h13 and 58 seconds
+[info] We've got incoming request for main at 20h13 and 58 seconds
+[info] We've got incoming request for main at 20h13 and 58 seconds
+[info] We've got incoming request for main at 20h13 and 59 seconds
+[info] We've got incoming request for main at 20h13 and 59 seconds
+[info] We've got incoming request for main at 20h13 and 59 seconds
+[info] We've got incoming request for main at 20h13 and 59 seconds
+[e] Veryphone server started at 20h15 and 0 seconds
+[ok] Veryphone web function started at 20h15 and 0 seconds
+[info] Web server init at 20h15 and 0 seconds
+[info] We've got incoming request for main at 20h15 and 3 seconds
+[info] Creating a new user instance at 20h15 and 3 seconds
+[info] We've got incoming request for main at 20h15 and 23 seconds
+[info] Creating a new user instance at 20h15 and 23 seconds
+[info] We've got incoming request for main at 20h15 and 25 seconds
+[info] Creating a new user instance at 20h15 and 25 seconds
+[info] We've got incoming request for main at 20h15 and 26 seconds
+[info] Creating a new user instance at 20h15 and 26 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/inscription/inscription.html at 20h15 and 27 seconds
+[info] We've got incoming request for main at 20h15 and 31 seconds
+[info] Creating a new user instance at 20h15 and 31 seconds
+[info] We've got incoming request for main at 20h15 and 32 seconds
+[info] Creating a new user instance at 20h15 and 32 seconds
+[info] We've got incoming request for main at 20h15 and 33 seconds
+[info] Creating a new user instance at 20h15 and 33 seconds
+[info] We've got incoming request for main at 20h15 and 36 seconds
+[info] Creating a new user instance at 20h15 and 36 seconds
+[info] We've got incoming request for main at 20h15 and 37 seconds
+[info] Creating a new user instance at 20h15 and 37 seconds
+[info] We've got incoming request for main at 20h15 and 37 seconds
+[info] Creating a new user instance at 20h15 and 37 seconds
+[info] We've got incoming request for main at 20h15 and 38 seconds
+[info] Creating a new user instance at 20h15 and 38 seconds
+[e] Veryphone server started at 20h19 and 52 seconds
+[ok] Veryphone web function started at 20h19 and 52 seconds
+[info] Web server init at 20h19 and 52 seconds
+[info] We've got incoming request for main at 20h19 and 55 seconds
+[info] Creating a new user at 20h19 and 55 seconds
+[info] We know haveNaN users at 20h19 and 55 seconds
+[info] We've got incoming request for main at 20h19 and 56 seconds
+[info] Creating a new user at 20h19 and 56 seconds
+[info] We know haveNaN users at 20h19 and 56 seconds
+[info] We've got incoming request for main at 20h20 and 6 seconds
+[info] Creating a new user at 20h20 and 6 seconds
+[info] We know haveNaN users at 20h20 and 6 seconds
+[info] We've got incoming request for main at 20h20 and 7 seconds
+[info] Creating a new user at 20h20 and 7 seconds
+[info] We know haveNaN users at 20h20 and 7 seconds
+[info] We've got incoming request for main at 20h20 and 8 seconds
+[info] Creating a new user at 20h20 and 8 seconds
+[info] We know haveNaN users at 20h20 and 8 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/user/ at 20h20 and 20 seconds
+[info] We've got incoming request for main at 20h20 and 33 seconds
+[info] Creating a new user at 20h20 and 33 seconds
+[info] We know haveNaN users at 20h20 and 33 seconds
+[info] Creating a new user at 20h20 and 35 seconds
+[info] We've got incoming request for main at 20h20 and 35 seconds
+[info] We know haveNaN users at 20h20 and 35 seconds
+[e] Veryphone server started at 20h21 and 55 seconds
+[ok] Veryphone web function started at 20h21 and 55 seconds
+[info] Web server init at 20h21 and 55 seconds
+[info] We've got incoming request for main at 20h21 and 58 seconds
+[info] Creating a new user at 20h21 and 58 seconds
+[info] We know haveNaN users at 20h21 and 58 seconds
+[e] Veryphone server started at 20h22 and 56 seconds
+[ok] Veryphone web function started at 20h22 and 56 seconds
+[info] Web server init at 20h22 and 56 seconds
+[info] We've got incoming request for main at 20h23 and 0 seconds
+[info] Creating a new user at 20h23 and 0 seconds
+[info] We know haveNaN users at 20h23 and 0 seconds
+[info] We've got incoming request for main at 20h23 and 1 seconds
+[info] Creating a new user at 20h23 and 1 seconds
+[info] We know haveNaN users at 20h23 and 1 seconds
+[e] Veryphone server started at 20h23 and 54 seconds
+[ok] Veryphone web function started at 20h23 and 54 seconds
+[info] Web server init at 20h23 and 54 seconds
+[info] We've got incoming request for main at 20h23 and 58 seconds
+[info] Creating a new user at 20h23 and 58 seconds
+[info] We know haveNaN users at 20h23 and 58 seconds
+[info] We've got incoming request for main at 20h24 and 0 seconds
+[info] Creating a new user at 20h24 and 0 seconds
+[info] We know haveNaN users at 20h24 and 0 seconds
+[e] Veryphone server started at 20h27 and 30 seconds
+[ok] Veryphone web function started at 20h27 and 30 seconds
+[info] Web server init at 20h27 and 30 seconds
+[info] We've got incoming request for main at 20h27 and 34 seconds
+[info] Creating a new user at 20h27 and 34 seconds
+[info] We know haveNaN users at 20h27 and 34 seconds
+[info] We've got incoming request for main at 20h27 and 42 seconds
+[info] Creating a new user at 20h27 and 42 seconds
+[info] We know haveNaN users at 20h27 and 42 seconds
+[info] We've got incoming request for main at 20h27 and 43 seconds
+[info] Creating a new user at 20h27 and 43 seconds
+[info] We know haveNaN users at 20h27 and 43 seconds
+[e] Veryphone server started at 20h29 and 27 seconds
+[ok] Veryphone web function started at 20h29 and 27 seconds
+[info] Web server init at 20h29 and 27 seconds
+[info] We've got incoming request for main at 20h29 and 34 seconds
+[info] Creating a new user at 20h29 and 34 seconds
+[info] We know haveNaN users at 20h29 and 34 seconds
+[info] We've got incoming request for main at 20h29 and 42 seconds
+[info] We know haveNaN users at 20h29 and 42 seconds
+[info] Creating a new user at 20h29 and 42 seconds
+[e] Veryphone server started at 20h30 and 9 seconds
+[ok] Veryphone web function started at 20h30 and 9 seconds
+[info] Web server init at 20h30 and 9 seconds
+[info] We've got incoming request for main at 20h30 and 12 seconds
+[info] Creating a new user at 20h30 and 12 seconds
+[info] We know haveNaN users at 20h30 and 12 seconds
+[e] Veryphone server started at 20h33 and 10 seconds
+[ok] Veryphone web function started at 20h33 and 10 seconds
+[info] Web server init at 20h33 and 10 seconds
+[info] We've got incoming request for main at 20h33 and 17 seconds
+[info] Creating a new user at 20h33 and 17 seconds
+[info] We know haveNaN users at 20h33 and 17 seconds
+[e] Veryphone server started at 20h34 and 24 seconds
+[ok] Veryphone web function started at 20h34 and 24 seconds
+[info] Initializing server module at 20h34 and 24 seconds
+[info] Web server init at 20h34 and 24 seconds
+[e] Veryphone server started at 20h34 and 43 seconds
+[ok] Veryphone web function started at 20h34 and 43 seconds
+[info] Initializing user_session module at 20h34 and 43 seconds
+[info] Web server init at 20h34 and 43 seconds
+[e] Veryphone server started at 20h35 and 22 seconds
+[ok] Veryphone web function started at 20h35 and 22 seconds
+[info] Initializing user_session module at 20h35 and 22 seconds
+[info] Web server init at 20h35 and 22 seconds
+[info] We've got incoming request for main at 20h35 and 30 seconds
+[info] Creating a new user at 20h35 and 30 seconds
+[info] We know haveNaN users at 20h35 and 30 seconds
+[e] Veryphone server started at 20h39 and 14 seconds
+[ok] Veryphone web function started at 20h39 and 14 seconds
+[info] Initializing user_session module at 20h39 and 14 seconds
+[info] Web server init at 20h39 and 14 seconds
+[e] Veryphone server started at 20h39 and 55 seconds
+[ok] Veryphone web function started at 20h39 and 55 seconds
+[info] Initializing user_session module at 20h39 and 55 seconds
+[info] Web server init at 20h39 and 55 seconds
+[info] We've got incoming request for main at 20h39 and 59 seconds
+[info] Creating a new user at 20h39 and 59 seconds
+[e] Veryphone server started at 20h40 and 48 seconds
+[ok] Veryphone web function started at 20h40 and 48 seconds
+[info] Initializing user_session module at 20h40 and 48 seconds
+[info] Web server init at 20h40 and 48 seconds
+[info] We've got incoming request for main at 20h40 and 51 seconds
+[info] Creating a new user at 20h40 and 51 seconds
+[info] We know haveundefined users at 20h40 and 51 seconds
+[e] Veryphone server started at 20h45 and 59 seconds
+[ok] Veryphone web function started at 20h45 and 59 seconds
+[info] Web server init at 20h45 and 59 seconds
+[e] Veryphone server started at 20h46 and 42 seconds
+[ok] Veryphone web function started at 20h46 and 42 seconds
+[info] Web server init at 20h46 and 42 seconds
+[info] We've got incoming request for main at 20h46 and 46 seconds
+[info] Creating a new user at 20h46 and 46 seconds
+[info] We know haveundefined users at 20h46 and 46 seconds
+[e] Veryphone server started at 20h47 and 39 seconds
+[ok] Veryphone web function started at 20h47 and 39 seconds
+[info] Web server init at 20h47 and 39 seconds
+[e] Veryphone server started at 20h48 and 18 seconds
+[ok] Veryphone web function started at 20h48 and 18 seconds
+[info] Web server init at 20h48 and 18 seconds
+[e] Veryphone server started at 20h48 and 48 seconds
+[ok] Veryphone web function started at 20h48 and 48 seconds
+[info] Web server init at 20h48 and 48 seconds
+[e] Veryphone server started at 20h49 and 34 seconds
+[ok] Veryphone web function started at 20h49 and 34 seconds
+[info] Web server init at 20h49 and 34 seconds
+[e] Veryphone server started at 20h49 and 48 seconds
+[ok] Veryphone web function started at 20h49 and 48 seconds
+[info] Web server init at 20h49 and 48 seconds
+[e] Veryphone server started at 20h50 and 3 seconds
+[ok] Veryphone web function started at 20h50 and 3 seconds
+[info] Web server init at 20h50 and 3 seconds
+[e] Veryphone server started at 20h50 and 27 seconds
+[ok] Veryphone web function started at 20h50 and 27 seconds
+[info] Web server init at 20h50 and 27 seconds
+[e] Veryphone server started at 20h51 and 21 seconds
+[ok] Veryphone web function started at 20h51 and 21 seconds
+[info] Web server init at 20h51 and 21 seconds
+[info] We've got incoming request for main at 20h51 and 24 seconds
+[e] Veryphone server started at 20h52 and 47 seconds
+[ok] Veryphone web function started at 20h52 and 47 seconds
+[info] Web server init at 20h52 and 47 seconds
+[info] We've got incoming request for main at 20h52 and 51 seconds
+[info] We've got incoming request for main at 20h52 and 52 seconds
+[e] Veryphone server started at 20h53 and 15 seconds
+[ok] Veryphone web function started at 20h53 and 15 seconds
+[info] Web server init at 20h53 and 15 seconds
+[info] We've got incoming request for main at 20h53 and 17 seconds
+[info] We've got incoming request for main at 20h53 and 18 seconds
+[info] We've got incoming request for main at 20h53 and 50 seconds
+[info] We've got incoming request for main at 20h53 and 50 seconds
+[e] Veryphone server started at 20h53 and 53 seconds
+[ok] Veryphone web function started at 20h53 and 53 seconds
+[info] Web server init at 20h53 and 53 seconds
+[info] We've got incoming request for main at 20h53 and 55 seconds
+[info] Creating a new user at 20h53 and 55 seconds
+[info] We know haveundefined users at 20h53 and 55 seconds
+[e] Veryphone server started at 20h54 and 51 seconds
+[ok] Veryphone web function started at 20h54 and 51 seconds
+[info] Web server init at 20h54 and 51 seconds
+[info] We've got incoming request for main at 20h55 and 0 seconds
+[info] Creating a new user at 20h55 and 0 seconds
+[info] We know haveNaN users at 20h55 and 0 seconds
+[e] Veryphone server started at 20h55 and 30 seconds
+[ok] Veryphone web function started at 20h55 and 30 seconds
+[info] Web server init at 20h55 and 30 seconds
+[info] We've got incoming request for main at 20h55 and 33 seconds
+[info] Creating a new user at 20h55 and 33 seconds
+[info] We know haveNaN users at 20h55 and 33 seconds
+[e] Veryphone server started at 20h55 and 53 seconds
+[ok] Veryphone web function started at 20h55 and 53 seconds
+[info] Web server init at 20h55 and 53 seconds
+[info] We've got incoming request for main at 20h55 and 56 seconds
+[info] Creating a new user at 20h55 and 56 seconds
+[info] We know haveundefined users at 20h55 and 56 seconds
+[e] Veryphone server started at 21h0 and 43 seconds
+[ok] Veryphone web function started at 21h0 and 43 seconds
+[info] Web server init at 21h0 and 43 seconds
+[info] We've got incoming request for main at 21h0 and 47 seconds
+[info] Creating a new user at 21h0 and 47 seconds
+[info] We know haveundefined users at 21h0 and 47 seconds
+[e] Veryphone server started at 21h1 and 50 seconds
+[ok] Veryphone web function started at 21h1 and 50 seconds
+[info] Web server init at 21h1 and 50 seconds
+[info] We've got incoming request for main at 21h1 and 58 seconds
+[info] Creating a new user at 21h1 and 58 seconds
+[info] We know haveundefined users at 21h1 and 58 seconds
+[e] Veryphone server started at 21h5 and 14 seconds
+[ok] Veryphone web function started at 21h5 and 14 seconds
+[info] Web server init at 21h5 and 14 seconds
+[e] Veryphone server started at 21h5 and 30 seconds
+[ok] Veryphone web function started at 21h5 and 30 seconds
+[info] Web server init at 21h5 and 30 seconds
+[info] We've got incoming request for main at 21h5 and 34 seconds
+[info] Creating a new user at 21h5 and 34 seconds
+[info] We know have0 users at 21h5 and 34 seconds
+[e] Veryphone server started at 21h6 and 1 seconds
+[ok] Veryphone web function started at 21h6 and 1 seconds
+[info] Web server init at 21h6 and 1 seconds
+[info] We've got incoming request for main at 21h6 and 4 seconds
+[info] Creating a new user at 21h6 and 4 seconds
+[info] We know have 1 users at 21h6 and 4 seconds
+[info] We've got incoming request for main at 21h6 and 5 seconds
+[info] Creating a new user at 21h6 and 5 seconds
+[info] We know have 2 users at 21h6 and 5 seconds
+[info] We've got incoming request for main at 21h6 and 15 seconds
+[info] Creating a new user at 21h6 and 15 seconds
+[info] We know have 3 users at 21h6 and 15 seconds
+[e] Veryphone server started at 21h10 and 40 seconds
+[ok] Veryphone web function started at 21h10 and 40 seconds
+[info] Web server init at 21h10 and 40 seconds
+[info] We've got incoming request for main at 21h10 and 43 seconds
+[info] Creating a new user at 21h10 and 43 seconds
+[info] User id : at 21h10 and 43 seconds
+[info] We know have NaN users at 21h10 and 43 seconds
+[info] We've got incoming request for main at 21h10 and 44 seconds
+[info] Creating a new user at 21h10 and 44 seconds
+[info] User id : at 21h10 and 44 seconds
+[info] We know have NaN users at 21h10 and 44 seconds
+[e] Veryphone server started at 21h11 and 11 seconds
+[ok] Veryphone web function started at 21h11 and 11 seconds
+[info] Web server init at 21h11 and 11 seconds
+[info] We've got incoming request for main at 21h11 and 13 seconds
+[info] Creating a new user at 21h11 and 13 seconds
+[info] User id : at 21h11 and 13 seconds
+[info] We know have 1 users at 21h11 and 13 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/user/ at 21h16 and 44 seconds
