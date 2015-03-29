@@ -17,6 +17,11 @@ function User(cookie)
 	User.numberOfUsers++;
 	uuid = uuidModule.v4();
 
+	// User description :
+
+	var registered = false;
+	var admin = false;
+
 
 	// if (typeof(cookieId != 'undefined'))
 	// {
@@ -65,9 +70,19 @@ function UserRamDatabase(maxNumberOfUsers)
 		return true
 	}
 
+	this.getNumberOfUsersInRam = function
+	{
+		return numberOfUsersInRam;
+	}
+
 	this.getUser = function(uuid)
 	{
 		return this.userRamArray[uuid];
+	}
+
+	this.deleteUser = function(uuid)
+	{
+		//this.userRamArray.splic
 	}
 
 	this.deleteInactiveUsers = function(inactivityTimeS)
@@ -92,6 +107,12 @@ function UserRamDatabase(maxNumberOfUsers)
 		delete this;
 	}
 
+}
+
+function UserAction(user, actionString)
+{
+	var User = user;
+	// TODO : continue
 }
 
 
