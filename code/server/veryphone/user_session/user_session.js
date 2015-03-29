@@ -56,7 +56,7 @@ function User(cookie)
 
 function UserRamDatabase(maxNumberOfUsers)
 {
-	var userRamArray[];
+	var userRamArray = new Array();
 	var numberOfUsersInRam = 0;
 	var maxNumberOfUsers = maxNumberOfUsers;
 
@@ -65,12 +65,14 @@ function UserRamDatabase(maxNumberOfUsers)
 		this.userRamArray[user.uuid] = user;
 		if (numberOfUsersInRam + 1 > maxNumberOfUsers) return false;
 
+		userRamArray.push(user);
 		this.numberOfUsersInRam++;
+
 		debug.alertDebug("User uuid " + user.uuid + " sucessfully added to user session");
 		return true
 	}
 
-	this.getNumberOfUsersInRam = function
+	this.getNumberOfUsersInRam = function()
 	{
 		return numberOfUsersInRam;
 	}
@@ -87,7 +89,7 @@ function UserRamDatabase(maxNumberOfUsers)
 
 	this.deleteInactiveUsers = function(inactivityTimeS)
 	{
-		for (var i=0, var length = this.userRamArray.length; i < length; i++ )
+		for (var i=0, length = this.userRamArray.length; i < length; i++ )
 		{
 			if (this.userRamArray[i].getInactivityTimeS > inactivityTimeS)
 			{

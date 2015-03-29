@@ -34,6 +34,13 @@ function init()
 
 	})
 
+	.get('/connexion', function(req, res){
+	debug.alertDebug("We've got incoming request for connection");
+	res.render('connexion.ejs');
+
+
+	})
+
 
 	.use(function(req, res, next){
 	var error = "404 : request on a page or ressource that doesn't exists. Ressource was :"
