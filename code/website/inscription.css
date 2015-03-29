@@ -2,6 +2,23 @@ body {
 	padding-top:80px;
 }
 
+.row{
+	padding-top: 30px;
+} 
+
+.prefooter {
+	width : 100%;
+	background-color : #ace5ee;
+	margin-top : 40px;
+	height : 10px
+}
+
+.footer{
+	width : 100%;
+	background-color : #b2beb5;
+	height : 150px
+}
+
 .btn {
 	margin-left:8px;
 	margin-right:8px;
