@@ -237,3 +237,106 @@
 [info] We know have 7 users at 18h32 and 24 seconds
 [info] We've got incoming request for inscription at 18h32 and 27 seconds
 [info] We've got incoming request for connection at 18h32 and 27 seconds
+[e] Veryphone server started at 8h56 and 1 seconds
+[ok] Veryphone web function started at 8h56 and 1 seconds
+[info] Web server init at 8h56 and 1 seconds
+[info] We've got incoming request for main at 8h56 and 17 seconds
+[info] Creating a new user at 8h56 and 17 seconds
+[info] User id : created at 8h56 and 17 seconds
+[info] We know have 1 users at 8h56 and 17 seconds
+[info] We've got incoming request for connection at 8h56 and 25 seconds
+[info] We've got incoming request for inscription at 8h56 and 34 seconds
+[info] We've got incoming request for connection at 8h56 and 49 seconds
+[info] We've got incoming request for inscription at 8h56 and 53 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/oko at 8h57 and 4 seconds
+[info] We've got incoming request for main at 8h58 and 39 seconds
+[info] Creating a new user at 8h58 and 39 seconds
+[info] User id : created at 8h58 and 39 seconds
+[info] We know have 2 users at 8h58 and 39 seconds
+[e] Veryphone server started at 9h17 and 12 seconds
+[info] Web server init at 9h17 and 12 seconds
+[ok] Veryphone web function started at 9h17 and 12 seconds
+[info] We've got incoming request for main at 9h17 and 35 seconds
+[info] Creating a new user at 9h17 and 35 seconds
+[info] User id : created at 9h17 and 35 seconds
+[info] We know have 1 users at 9h17 and 35 seconds
+[info] We've got incoming request for inscription at 9h17 and 44 seconds
+[info] We've got incoming request for inscription at 9h22 and 25 seconds
+[info] We've got incoming request for inscription at 9h22 and 28 seconds
+[e] Veryphone server started at 9h29 and 44 seconds
+[ok] Veryphone web function started at 9h29 and 44 seconds
+[info] Web server init at 9h29 and 44 seconds
+[info] We've got incoming request for inscription at 9h29 and 56 seconds
+[info] Creating a new user at 9h30 and 4 seconds
+[info] We've got incoming request for main at 9h30 and 4 seconds
+[info] User id : created at 9h30 and 4 seconds
+[info] We know have 1 users at 9h30 and 4 seconds
+[info] We've got incoming request for main at 9h30 and 11 seconds
+[info] Creating a new user at 9h30 and 11 seconds
+[info] User id : created at 9h30 and 11 seconds
+[info] We know have 2 users at 9h30 and 11 seconds
+[info] We've got incoming request for main at 9h30 and 16 seconds
+[info] Creating a new user at 9h30 and 16 seconds
+[info] We know have 3 users at 9h30 and 16 seconds
+[info] User id : created at 9h30 and 16 seconds
+[info] We've got incoming request for inscription at 9h30 and 19 seconds
+[info] We've got incoming request for connection at 9h30 and 20 seconds
+[info] We've got incoming request for main at 9h30 and 22 seconds
+[info] Creating a new user at 9h30 and 22 seconds
+[info] User id : created at 9h30 and 22 seconds
+[info] We know have 4 users at 9h30 and 22 seconds
+[info] We've got incoming request for inscription at 9h30 and 26 seconds
+[info] We've got incoming request for connection at 9h30 and 28 seconds
+[info] We've got incoming request for inscription at 9h30 and 51 seconds
+[info] We've got incoming request for inscription at 9h30 and 52 seconds
+[info] We've got incoming request for inscription at 9h30 and 52 seconds
+[info] We've got incoming request for inscription at 9h30 and 52 seconds
+[info] We've got incoming request for inscription at 9h30 and 53 seconds
+[info] We've got incoming request for inscription at 9h30 and 54 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/inscripti at 9h32 and 44 seconds
+[e] Veryphone server started at 10h36 and 18 seconds
+[ok] Veryphone web function started at 10h36 and 18 seconds
+[info] Web server init at 10h36 and 18 seconds
+[info] We've got incoming request for main at 10h36 and 29 seconds
+[info] Creating a new user at 10h36 and 29 seconds
+[info] User id : created at 10h36 and 29 seconds
+[info] We know have 1 users at 10h36 and 29 seconds
+[info] We've got incoming request for inscription at 10h36 and 30 seconds
+[info] We've got incoming request for connection at 10h36 and 31 seconds
+[info] We've got incoming request for connection at 10h36 and 32 seconds
+[info] We've got incoming request for connection at 10h36 and 33 seconds
+[info] We've got incoming request for connection at 10h36 and 33 seconds
+[info] We've got incoming request for connection at 10h36 and 33 seconds
+[info] We've got incoming request for connection at 10h36 and 34 seconds
+[info] We've got incoming request for connection at 10h36 and 34 seconds
+[info] We've got incoming request for inscription at 10h36 and 35 seconds
+[info] We've got incoming request for connection at 10h36 and 36 seconds
+[info] We've got incoming request for inscription at 10h36 and 38 seconds
+[info] We've got incoming request for connection at 10h36 and 39 seconds
+[info] We've got incoming request for main at 10h37 and 3 seconds
+[info] Creating a new user at 10h37 and 3 seconds
+[info] User id : created at 10h37 and 3 seconds
+[info] We know have 2 users at 10h37 and 3 seconds
+[info] We've got incoming request for main at 10h37 and 5 seconds
+[info] Creating a new user at 10h37 and 5 seconds
+[info] User id : created at 10h37 and 5 seconds
+[info] We know have 3 users at 10h37 and 5 seconds
+[info] We've got incoming request for inscription at 10h37 and 6 seconds
+[info] We've got incoming request for connection at 10h37 and 6 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/connexi at 10h37 and 12 seconds
+[e] Veryphone server started at 10h39 and 21 seconds
+[ok] Veryphone web function started at 10h39 and 21 seconds
+[info] Web server init at 10h39 and 21 seconds
+[info] We've got incoming request for connection at 10h39 and 25 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/conne at 10h39 and 28 seconds
+[info] Creating a new user at 10h39 and 38 seconds
+[info] We've got incoming request for main at 10h39 and 38 seconds
+[info] User id : created at 10h39 and 38 seconds
+[info] We know have 1 users at 10h39 and 38 seconds
+[e] 404 : request on a page or ressource that doesn't exists. Ressource was :/fe at 10h39 and 49 seconds
+[info] Creating a new user at 10h39 and 58 seconds
+[info] We've got incoming request for main at 10h39 and 58 seconds
+[info] User id : created at 10h39 and 58 seconds
+[info] We know have 2 users at 10h39 and 58 seconds
+[info] We've got incoming request for inscription at 10h40 and 0 seconds
+[info] We've got incoming request for connection at 10h40 and 2 seconds
