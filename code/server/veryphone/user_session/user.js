@@ -24,6 +24,5 @@ function User(email, password, firstName, lastName)
 
 }
 
-function User
 
 exports.User = User;

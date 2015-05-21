@@ -70,5 +70,6 @@ function testSession()
 
 
 exports.processUserRequest = processUserRequest;
+exports.testSession = testSession;
 
 

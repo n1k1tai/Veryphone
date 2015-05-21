@@ -83,3 +83,18 @@
  404 : request on a page that doesn't exists at 19h22 and 0 seconds
  We've got incoming request for main at 19h22 and 10 seconds
  404 : request on a page that doesn't exists at 19h22 and 10 seconds
+[e] Veryphone server started at 23h29 and 16 seconds
+[ok] Veryphone web function started at 23h29 and 16 seconds
+[info] Web server init at 23h29 and 16 seconds
+[e] Veryphone server started at 23h32 and 10 seconds
+[ok] Veryphone web function started at 23h32 and 10 seconds
+[info] Web server init at 23h32 and 10 seconds
+[e] Veryphone server started at 23h33 and 5 seconds
+[ok] Veryphone web function started at 23h33 and 5 seconds
+[info] Web server init at 23h33 and 5 seconds
+[e] Veryphone server started at 23h34 and 9 seconds
+[ok] Veryphone web function started at 23h34 and 9 seconds
+[info] Web server init at 23h34 and 9 seconds
+[e] Veryphone server started at 23h35 and 6 seconds
+[ok] Veryphone web function started at 23h35 and 6 seconds
+[info] Web server init at 23h35 and 6 seconds
