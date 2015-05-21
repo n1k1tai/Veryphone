@@ -6,7 +6,7 @@ debug.alertDebug("Veryphone server started", true, false, false);
 //Initializing the user session module :
 
 var userSessionModule = require("./veryphone/user_session/user_session.js");
-usersSessionModule.init();
+userSessionModule.init();
 
 
 // Initializing the web server module :
