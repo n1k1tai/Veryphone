@@ -2,7 +2,7 @@ var debugModule = require('./../interface/debug');
 debug = new debugModule.debug(true, true, 'log.txt');
 debug.alertDebug("Veryphone web function started", false, true);
 
-var userModule = require('./../user_session/user_session.js');
+var userSessionModule = require('./../user_session/user_session.js');
 
 function init()
 
@@ -17,6 +17,7 @@ function init()
 
 	var session = require('express-session');
 	app.use(session({secret: 'sessionpass'}));
+	user_sessionModule.testSession();
 
 
 	app.use(express.static('/home/nikita/Scripting/Veryphone/code/website/'));
@@ -24,10 +25,10 @@ function init()
 	app.set('view engine', 'ejs');
 
 
-	// Routes listing :
+	// Get Routes listing :
 	app.get('/', function(req, res) {
 	debug.alertDebug("We've got incoming request for main");
-	userModule.processUserRequest(req);
+	userSessionModule.processUserRequest(req);
     res.render('main.ejs');
 
 
@@ -35,7 +36,7 @@ function init()
 
 	.get('/inscription', function(req, res){
 	debug.alertDebug("We've got incoming request for inscription");
-	userModule.processUserRequest(req);
+	userSessionModule.processUserRequest(req);
 
 
 	res.render('inscription.ejs');
@@ -45,14 +46,32 @@ function init()
 
 	.get('/connexion', function(req, res){
 	debug.alertDebug("We've got incoming request for connection");
-	userModule.processUserRequest(req);
+	userSessionModule.processUserRequest(req);
 
 
-	
+
 	res.render('connexion.ejs');
 
 
 	})
+
+	// Post Routes listing :
+
+	app.post('/', function(req, res)
+	{
+		// Getting the 1
+  		var reqEmail = req.body.email;
+  		var reqPassword = req.body.password;
+
+  		if(userSessionModule.processLoginRequest(email, password, session)
+  		{
+
+  		}
+
+  	
+
+  		// Ejs rendering :
+	});
 
 
 	.use(function(req, res, next){
