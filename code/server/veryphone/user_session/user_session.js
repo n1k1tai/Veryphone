@@ -7,10 +7,32 @@ function init()
 	debug.alertDebug("User session init", false, false);
 
 	var session = require('express-session');
+	app.use(session({secret: 'sessionpass'}));
+
+	
 
 }
 
 
+function processUserRequest(req)
+{
+	//Creating the session :
+	var userSession = req.session;
+
+	if (userSession.name == undefined)
+	{
+		userSession.name = "Julien";
+		userSession.views = 0;
+
+		debugModule.alertDebug("Nouvel utilisateur !");
+	}
+
+	userSession.views ++;
+	debugModule.alertDebug("L'utilisateur a" + userSession.views + "vues");
+}
+
+
 exports.init = init;
+exports.session = session;
 
 

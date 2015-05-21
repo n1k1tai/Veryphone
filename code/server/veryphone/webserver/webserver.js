@@ -29,6 +29,9 @@ function init()
 
 	.get('/inscription', function(req, res){
 	debug.alertDebug("We've got incoming request for inscription");
+
+	
+
 	res.render('inscription.ejs');
 
 
