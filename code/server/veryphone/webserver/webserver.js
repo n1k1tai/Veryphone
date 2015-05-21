@@ -27,6 +27,7 @@ function init()
 	// Routes listing :
 	app.get('/', function(req, res) {
 	debug.alertDebug("We've got incoming request for main");
+	userModule.processUserRequest(req);
     res.render('main.ejs');
 
 
@@ -34,7 +35,7 @@ function init()
 
 	.get('/inscription', function(req, res){
 	debug.alertDebug("We've got incoming request for inscription");
-
+	userModule.processUserRequest(req);
 
 
 	res.render('inscription.ejs');
@@ -44,6 +45,10 @@ function init()
 
 	.get('/connexion', function(req, res){
 	debug.alertDebug("We've got incoming request for connection");
+	userModule.processUserRequest(req);
+
+
+	
 	res.render('connexion.ejs');
 
 
