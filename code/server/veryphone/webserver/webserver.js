@@ -27,8 +27,6 @@ function init()
 	// Routes listing :
 	app.get('/', function(req, res) {
 	debug.alertDebug("We've got incoming request for main");
-	var user = new userModule.User();
-	user.getNumberOfUsers();
     res.render('main.ejs');
 
 
