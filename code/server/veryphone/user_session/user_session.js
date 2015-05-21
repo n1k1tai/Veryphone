@@ -33,6 +33,6 @@ function processUserRequest(req)
 
 
 exports.init = init;
-exports.session = session;
+exports.processUserRequest = processUserRequest;
 
 
