@@ -2,7 +2,7 @@ var debugModule = require('./../interface/debug');
 debug = new debugModule.debug(true, true, 'log.txt');
 debug.alertDebug("Veryphone web function started", false, true);
 
-var testSession = require('./../user_session/user_session.js');
+var userSessionModule = require('./../user_session/user_session.js');
 
 function init()
 
@@ -13,15 +13,19 @@ function init()
 	express = require('express');
 	var app = express();
 
+	// Body parser init :
+
+	var bodyParser = require('body-parser');
+	app.use(bodyParser());
+
 	// User session init :
 
 	var session = require('express-session');
 	app.use(session({secret: 'sessionpass'}));
 
-	app.use(express.static('/home/nikita/Scripting/Veryphone/code/website/'));
+	app.use(express.static('../website/'));
 	app.set('views', __dirname + '/views');
 	app.set('view engine', 'ejs');
-
 
 	// Get Routes listing :
 	app.get('/', function(req, res) {
@@ -53,6 +57,26 @@ function init()
 
 	})
 
+	// Post Routes listing :
+
+	.post('/connexion', function(req, res){
+	// Getting the request parameters
+  	var reqEmail = req.body.email;
+  	var reqPassword = req.body.password;
+
+  	debug.alertDebug("Got a new loggin request from user " + reqEmail + " with password " + reqPassword);
+
+  	userSessionModule.processLoginRequest(reqEmail, reqPassword, req.session);
+
+  	res.render('connexion.ejs');
+
+  	
+  	// Ejs rendering :
+	})
+
+
+
+	// 404 Route
 	.use(function(req, res, next){
 	var error = "404 : request on a page or ressource that doesn't exists. Ressource was :"
 	error += req.url;
@@ -61,23 +85,12 @@ function init()
 	res.render('404.ejs');
 	});
 
-	// Post Routes listing :
-
-	app.post('/', function(req, res)
-	{
-		// Getting the request parameters
-  		var reqEmail = req.body.email;
-  		var reqPassword = req.body.password;
-
-  		debug.alertDebug("Got a new loggin from user " + reqEmail + " with password " + reqPassword);
-
-  	
-
-  		// Ejs rendering :
-	});
 	
 
-	app.listen(80);
+
+	
+
+	app.listen(8080);
 }
 
 exports.init = init;

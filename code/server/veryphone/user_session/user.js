@@ -1,7 +1,7 @@
 var debugModule = require('./../interface/debug');
 debug = new debugModule.debug(true, true, 'log.txt');
 
-function User(email, password, firstName, lastName)
+function user(email, password, firstName, lastName)
 {
 	this.email = email;
 	this.firstName = firstName;
@@ -22,7 +22,7 @@ function User(email, password, firstName, lastName)
 		password_ = password;
 	}
 
-}
+};
 
 
-exports.User = User;
+module.exports = user;

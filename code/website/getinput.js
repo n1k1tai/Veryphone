@@ -3,6 +3,6 @@
         $('#submit').on('click', function(e)
         {
             var data = {}
-            $.post("connexion.html", { email : $('#email').val(), password : $('#password').val() } );
+            $.post("connexion", { email : $('#email').val(), password : $('#pwd').val() } );
         });
     });
