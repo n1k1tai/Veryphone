@@ -16,7 +16,7 @@ function processUserRequest(req)
 	}
 
 	userSession.views ++;
-	debugModule.alertDebug("L'utilisateur a" + userSession.views + "vues");
+	debug.alertDebug("L'utilisateur a" + userSession.views + "vues");
 }
 
 
