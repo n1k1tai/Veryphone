@@ -12,6 +12,13 @@ function init()
 
 	express = require('express');
 	var app = express();
+
+	// User session init :
+
+	var session = require('express-session');
+	app.use(session({secret: 'sessionpass'}));
+
+
 	app.use(express.static('/home/nikita/Scripting/Veryphone/code/website/'));
 	app.set('views', __dirname + '/views');
 	app.set('view engine', 'ejs');
@@ -30,7 +37,7 @@ function init()
 	.get('/inscription', function(req, res){
 	debug.alertDebug("We've got incoming request for inscription");
 
-	
+
 
 	res.render('inscription.ejs');
 
