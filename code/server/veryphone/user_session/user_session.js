@@ -12,7 +12,7 @@ function processUserRequest(req)
 		userSession.name = "Julien";
 		userSession.views = 0;
 
-		debugModule.alertDebug("Nouvel utilisateur !");
+		debug.alertDebug("Nouvel utilisateur !");
 	}
 
 	userSession.views ++;
