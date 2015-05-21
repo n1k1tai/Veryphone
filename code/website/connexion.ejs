@@ -45,11 +45,11 @@
 		 			<form role="form">
 		    			<div class="form-group">
 		      				<label for="email">Adresse électronique</label>
-		      				<input type="email" class="form-control" id="email" placeholder="Email">
+		      				<input type="email" class="form-control" id="email" placeholder="Email" onkeyup="getVals(this, 'email')">
 		    			</div>
 		    			<div class="form-group">
 		      				<label for="pwd">Mot de passe</label>
-		      			<input type="password" class="form-control" id="pwd" placeholder="Mot de passe">
+		      			<input type="password" class="form-control" id="pwd" placeholder="Mot de passe" onkeyup="getVals(this, 'password')">
 		    			</div>
 		    			</br>
 		    			<button type="submit" class="btn btn-default">Se connecter</button>
@@ -118,5 +118,6 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="Bootstrap/js/bootstrap.min.js"></script>
+		<script src="getinput.js"></script>
 	</body>
 </html>
