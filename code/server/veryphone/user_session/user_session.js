@@ -33,11 +33,17 @@ function processUserRequest(session)
 
 function processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)
 {
-	if (testUserExistence(email)) return false;
+	if (testUserExistence(reqEmail))
+	{
+		debug.alertDebug("Requested SignIN for user " + reqEmail + " but user already exists",1);
+		return false;
+	} 
 	else 
 	{
 		var currentUser = new user(reqEmail, reqPassword, reqFirstName, reqLastName);
 		userPanel[currentUser.email] = currentUser;
+
+		debug.alertDebug("User " + reqFirstName + " " + reqLastName + " on " + reqEmail + " sucessfully signed up",0,1);
 		return true;
 	}
 }
@@ -71,6 +77,7 @@ function processSignInRequest(reqEmail, reqPassword, userSession)
 
 function processSignOutRequest(session)
 {
+	debug.alertDebug("User " + session.user.firstName + " " + session.user.lastName + "Signed out", 0, 1);
 	session.user = undefined;
 }
 
@@ -83,7 +90,7 @@ function testUserExistence(email)
 
 
 exports.processUserRequest = processUserRequest;
-exports.processSigninRequest = processSignInRequest;
-exports.processSignupRequest = processSignUpRequest;
+exports.processSignInRequest = processSignInRequest;
+exports.processSignUpRequest = processSignUpRequest;
 exports.processSignOutRequest = processSignOutRequest;
 

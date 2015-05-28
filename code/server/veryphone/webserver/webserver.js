@@ -37,11 +37,8 @@ function init()
   		};
   		else res.dataEJS = {
   			connected : true,
-  			user :{
-  				firstName : req.session.user.firstName,
-  				lastName : req.session.user.lastName
-  			}
-  			
+  			firstName : req.session.user.firstName,
+  			lastName : req.session.user.lastName	
   		};
 
   		next();
@@ -102,7 +99,7 @@ function init()
   	var reqFirstName = req.body.firstName;
   	var reqLastName = req.body.lastName;
 
-  	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, req.session)) 
+  	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)) 
   	{
   		res.dataEJS.inscription = {
   			success : true,

@@ -1,6 +1,6 @@
  $( document ).ready(function()
     {
-        $('#submit').on('click', function(e)
+        $('#send').on('click', function(e)
         {
             if ( $('#pwd').val() == $('#pwdtest').val() )
             {
@@ -8,7 +8,7 @@
             }
             else 
             {
-                
+
             }
         });
     });
