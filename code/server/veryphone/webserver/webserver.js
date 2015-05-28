@@ -104,7 +104,7 @@ function init()
 
   	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)) 
   	{
-  		userSessionModule.processSignInRequest(reqEmail, reqPassword, res.session);
+  		userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
   		res.redirect("/presentation");
   	}
 
