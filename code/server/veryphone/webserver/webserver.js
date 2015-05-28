@@ -37,7 +37,10 @@ function init()
 	//Adding a logging middleware :
 
 	app.use(function (req, res, next) {
-  		debug.alertDebug("Incoming request on page" + req.baseUrl + "by " + req.session.user.email + " from " + req.ip);
+		var user_name;
+		if (typeof(req.session.user) == undefined) user_name = "visitor"
+		else user_name = req.session.user.firstName + " " + req.session.user.lastName + " on login " req.user.session.email;
+  		debug.alertDebug("Incoming request on page" + req.baseUrl + "by " + user_name + " from " + req.ip);
   		next();
 	});
 
