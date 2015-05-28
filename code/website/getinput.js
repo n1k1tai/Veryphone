@@ -13,6 +13,6 @@
             // } 
             // else {
             // 	$.post("connexion", { email : "Email invalide", password : "" } );
-            }
+            // }
         });
     });
