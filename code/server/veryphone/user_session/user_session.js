@@ -53,7 +53,7 @@ function processLoginRequest(reqEmail, reqPassword, userSession)
 
 		else
 		{
-			debug.alertDebug("User " + currentUser.firstName+ " " + currentUser.lastName + "password is not " + reqPassword, 1, 0);
+			debug.alertDebug("User " + currentUser.firstName+ " " + currentUser.lastName + " " + "password is not " + reqPassword, 1, 0);
 			return false;
 		} 
 	}
