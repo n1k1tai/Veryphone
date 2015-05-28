@@ -75,6 +75,11 @@ function init()
 
 	})
 
+	.get('/presentation', function(req, res){
+	res.render('presentation.ejs', res.dataEJS);
+
+	})
+
 
 	// Post Routes listing :
 	.post('/connexion', function(req, res){
@@ -87,8 +92,6 @@ function init()
 
   	res.render('connexion.ejs', res.dataEJS);
 
-  	
-  	// Ejs rendering :
 	})
 
 	.post('/inscription', function(req, res){
@@ -101,29 +104,28 @@ function init()
 
   	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)) 
   	{
-  		res.dataEJS.inscription = {
-  			success : true,
-  			FirstName : reqFirstName,
-  			LastName : reqLastName,
-  			email : reqEmail
-  		};
-
-
-  		res.dataEJS.connected = false;
+  		userSessionModule.processSignInRequest(reqEmail, reqPassword, res.session);
+  		res.redirect("/presentation");
   	}
 
   	else {
-
-  		res.dataEJS.inscription = {
-  			success : false,
-  			email : reqEmail
-  		};
-
-  			res.dataEJS.connected = false;
-
+  		res.redirect("/inscription");
   	}
 
-  	res.render('connexion.ejs', res.dataEJS);
+	})
+
+	.post("/", function(req, res){
+
+	// Getting the request parameters
+  	var signout = req.body.signout;
+  	
+
+  	if (signout == true ) userSessionModule.processSignOutRequest(req.session);
+
+  	res.redirect("/")
+
+  	
+  	// Ejs rendering :
 	})
 
 
