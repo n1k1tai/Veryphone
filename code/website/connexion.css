@@ -10,13 +10,15 @@ body {
 	width : 100%;
 	background-color : #ace5ee;
 	margin-top : 40px;
-	height : 10px
+	height : 10px;
 }
 
 .footer{
 	width : 100%;
 	background-color : #b2beb5;
 	height : 150px
+	bottom: 0;
+    position: relative;
 }
 
 .videobase {
