@@ -102,7 +102,7 @@ function init()
   	var reqFirstName = req.body.firstName;
   	var reqLastName = req.body.lastName;
 
-  	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, req.session)) 
+  	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)) 
   	{
   		res.dataEJS.inscription = {
   			success : true,
