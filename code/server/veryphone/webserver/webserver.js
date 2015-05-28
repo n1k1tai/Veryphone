@@ -40,7 +40,7 @@ function init()
 		var user_name;
 		if (req.session.user == undefined) user_name = "visitor";
 
-		else user_name = req.session.user.firstName + " " + req.session.user.lastName + " on login " + req.user.session.email;
+		else user_name = req.session.user.firstName + " " + req.session.user.lastName + " on login " + req.session.user.email;
   		debug.alertDebug("Incoming request on page " + req.originalUrl + " by " + user_name + " from " + req.ip);
   		next();
 	});
