@@ -11,13 +11,13 @@ function user(email, password, firstName, lastName)
 	
 
 
-	checkPassword : function(hash)
+	this.checkPassword = function(hash)
 	{
 		if (hash == password_) return true;
 		else return false;
 	}
 
-	function setNewPassword(password)
+	this.setNewPassword = function(password)
 	{
 		password_ = password;
 	}
