@@ -41,13 +41,14 @@ function init()
 		if (req.session.user == undefined) user_name = "visitor";
 
 		else user_name = req.session.user.firstName + " " + req.session.user.lastName + " on login " + req.user.session.email;
-  		debug.alertDebug("Incoming request on page" + req.originalUrl + " by " + user_name + " from " + req.ip);
+  		debug.alertDebug("Incoming request on page " + req.originalUrl + " by " + user_name + " from " + req.ip);
   		next();
 	});
 
 
 	// Get Routes listing :
 	app.get('/', function(req, res) {
+
     res.render('main.ejs');
 
 	})

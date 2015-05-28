@@ -15,19 +15,17 @@ userPanel[Nico.email] = Nico;
 
 function processUserRequest(session)
 {
-	//Creating the session :
-	var userSession = session;
 
 	
 	// Checking if an existing user is associated to this session
-	if (userSession.user == undefined)
+	if (session.user == undefined)
 	{
-		//debug.alertDebug("Got a new request from an unidentified user");
+		
 	}
 
 	else
 	{
-		//debug.alertDebug("Got a new request from : " + userSession.user.firstName+ " " + userSession.user.lastName);
+		
 	}
 
 
