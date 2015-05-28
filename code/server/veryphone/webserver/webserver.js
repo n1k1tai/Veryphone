@@ -37,7 +37,7 @@ function init()
 	//Adding a logging middleware :
 
 	app.use(function (req, res, next) {
-  		debug.alertDebug("Incoming request on page" + req.baseUrl + "by " req.session.user.email + " from " req.ip);
+  		debug.alertDebug("Incoming request on page" + req.baseUrl + "by " + req.session.user.email + " from " + req.ip);
   		next();
 	});
 
