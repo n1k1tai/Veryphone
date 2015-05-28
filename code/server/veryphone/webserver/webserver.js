@@ -38,6 +38,7 @@ function init()
 
 	app.use(function (req, res, next) {
 		var user_name;
+		debug.alertDebug(typeof(req.session.user));
 		if (typeof(req.session.user) == undefined) user_name = "visitor";
 		else user_name = req.session.user.firstName + " " + req.session.user.lastName + " on login " + req.user.session.email;
   		debug.alertDebug("Incoming request on page" + req.baseUrl + "by " + user_name + " from " + req.ip);
