@@ -1,6 +1,4 @@
-function testconnection(){
-
-if 
+<% if (connected == false) { %>
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
@@ -15,7 +13,7 @@ if
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#Fonctionnalités">Fonctionnalités</a></li>
+				<li><a href="#Fonctionnalités">Fonctionnalitésgtrg</a></li>
 				<li><a href="#Tarifs">Tarifs</a></li>
 				<li><a href="#FAQ">Aide</a></li>
 				<li><p class="navbar-btn"><a href="/inscription" class="btn btn-success btn-md">Inscription</a></p></li>
@@ -24,6 +22,9 @@ if
 		</div>
 	</div>
 </div>
+
+<%}
+else { %>
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
@@ -42,7 +43,7 @@ if
 			    <li><a href="#">Base personnelle</a></li>    
 			    <li><a href="#">Matériel</a></li>    
 			    <li class="dropdown">
-			        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Roger <b class="caret"></b></a>
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <% firstName %> <b class="caret"></b></a>
 			        <ul class="dropdown-menu">
 					<li><a href="#">Paramètres</a></li>
 					<li><a href="#">Aide</a></li>
@@ -55,4 +56,4 @@ if
 	</div>
 </div>
 
-}
+<% } %>
