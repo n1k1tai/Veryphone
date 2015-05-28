@@ -31,7 +31,18 @@ function processUserRequest(session)
 
 }
 
-function processLoginRequest(reqEmail, reqPassword, userSession)
+function processSignupRequest(reqEmail, reqPassword, reqFirstName, reqLastName)
+{
+	if (testUserExistence(email)) return false;
+	else 
+	{
+		var currentUser = new user(reqEmail, reqPassword, reqFirstName, reqLastName);
+		userPanel[currentUser.email] = currentUser;
+		return true;
+	}
+}
+
+function processSignInRequest(reqEmail, reqPassword, userSession)
 {
 	// Checking if the User exists :
 	if (!testUserExistence(reqEmail))
@@ -41,7 +52,7 @@ function processLoginRequest(reqEmail, reqPassword, userSession)
 	} 
 	else
 	{
-		var currentUser = userPanel[reqEmail];
+		var currentUser = userPanel[reqEmail]; // TODO : store in database 
 		if(currentUser.checkPassword(reqPassword))
 		{
 			debug.alertDebug("User " + currentUser.firstName + " " + currentUser.lastName + " connected sucessfully", 0, 1);
@@ -56,6 +67,11 @@ function processLoginRequest(reqEmail, reqPassword, userSession)
 		} 
 	}
 
+}
+
+function processSignOutRequest(session)
+{
+	session.user = undefined;
 }
 
 function testUserExistence(email)
