@@ -3,6 +3,17 @@
         $('#submit').on('click', function(e)
         {
             var data = {}
-            $.post("connexion", { email : $('#email').val(), password : $('#pwd').val() } );
+            var email = $('email').val();
+            function validateEmail(email) {
+
+			    var re = new regexp("/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i");
+			    return re.test(email);
+			}
+			if (re.test(email) == true) {
+            	$.post("connexion", { email : $('#email').val(), password : $('#pwd').val() } );
+            } 
+            else {
+            	$.post("connexion", { email : "Email invalide", password : "" } );
+            }
         });
     });
