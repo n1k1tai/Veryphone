@@ -44,7 +44,7 @@ function processLoginRequest(reqEmail, reqPassword, userSession)
 	else
 	{
 		var currentUser = userPanel[reqEmail];
-		if(true) // currentUser.checkPassword(reqPassword)
+		if(currentUser.checkPassword(reqPassword))
 		{
 			debug.alertDebug("User " + currentUser.firstName + " " + currentUser.lastName + "connected sucessfully", 0, 1);
 			userSession.user = currentUser;
