@@ -44,14 +44,14 @@ function processLoginRequest(reqEmail, reqPassword, userSession)
 		var currentUser = userPanel[reqEmail];
 		if(currentUser.checkPassword(reqPassword))
 		{
-			debug.alertDebug("User " + currentUser.firstName + " " + currentUser.lastName + "connected sucessfully", 0, 1);
+			debug.alertDebug("User " + currentUser.firstName + " " + currentUser.lastName + " connected sucessfully", 0, 1);
 			userSession.user = currentUser;
 			return true;
 		}
 
 		else
 		{
-			debug.alertDebug("User " + currentUser.firstName+ " " + currentUser.lastName + " " + "password is not " + reqPassword, 1, 0);
+			debug.alertDebug("User " + currentUser.firstName+ " " + currentUser.lastName + " password is not " + reqPassword, 1, 0);
 			return false;
 		} 
 	}

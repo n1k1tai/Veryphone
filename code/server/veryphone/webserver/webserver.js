@@ -31,6 +31,18 @@ function init()
 	
 	app.use(function (req, res, next) {
   		userSessionModule.processUserRequest(req.session);
+
+  		if (req.session.user == undefined) res.dataEJS = {
+  			connected : false
+  		};
+  		else res.dataEJS = {
+  			connected : true,
+  			user : {
+  				firstName : req.session.user.firstName,
+  				lastName : req.session.user.lastName
+  			}
+  		};
+
   		next();
 	});
 
@@ -49,17 +61,17 @@ function init()
 	// Get Routes listing :
 	app.get('/', function(req, res) {
 
-    res.render('main.ejs');
+    res.render('main.ejs', res.dataEJS);
 
 	})
 
 	.get('/inscription', function(req, res){
-	res.render('inscription.ejs');
+	res.render('inscription.ejs', res.dataEJS);
 
 	})
 
 	.get('/connexion', function(req, res){
-	res.render('connexion.ejs');
+	res.render('connexion.ejs', res.dataEJS);
 
 	})
 
@@ -73,7 +85,7 @@ function init()
 
   	userSessionModule.processLoginRequest(reqEmail, reqPassword, req.session);
 
-  	res.render('connexion.ejs');
+  	res.render('connexion.ejs', res.dataEJS);
 
   	
   	// Ejs rendering :
