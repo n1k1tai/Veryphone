@@ -33,7 +33,7 @@ function processUserRequest(session)
 
 function processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)
 {
-	if (testUserExistence(email))
+	if (testUserExistence(reqEmail))
 	{
 		debug.alertDebug("Requested SignIN for user " + reqEmail + " but user already exists",1);
 		return false;
