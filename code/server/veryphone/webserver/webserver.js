@@ -37,7 +37,7 @@ function init()
   		};
   		else res.dataEJS = {
   			connected : true,
-  			firstName : "CACA",
+  			firstName : req.session.user.firstName,
   			lastName : req.session.user.lastName
   		};
 
