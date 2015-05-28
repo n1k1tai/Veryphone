@@ -38,7 +38,11 @@ function init()
 
 	app.use(function (req, res, next) {
 		var user_name;
-		if (typeof(req.session.user) == undefined) user_name = "visitor";
+		if (typeof(req.session.user) == undefined)
+		{
+			user_name = "visitor";
+			debug.alertDebug("Test");
+		} 
 		else
 		{
 			user_name = req.session.user.firstName + " " + req.session.user.lastName + " on login " + req.user.session.email;
