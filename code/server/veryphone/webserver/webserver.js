@@ -37,8 +37,11 @@ function init()
   		};
   		else res.dataEJS = {
   			connected : true,
-  			firstName : req.session.user.firstName,
-  			lastName : req.session.user.lastName
+  			user :{
+  				firstName : req.session.user.firstName,
+  				lastName : req.session.user.lastName
+  			}
+  			
   		};
 
   		next();
@@ -64,6 +67,8 @@ function init()
 	})
 
 	.get('/inscription', function(req, res){
+
+	if (req.session.user != undefined) userSessionModule.processSignOutRequest(req.session);
 	res.render('inscription.ejs', res.dataEJS);
 
 	})
@@ -81,12 +86,47 @@ function init()
   	var reqEmail = req.body.email;
   	var reqPassword = req.body.password;
 
-  	userSessionModule.processLoginRequest(reqEmail, reqPassword, req.session);
+  	userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
 
   	res.render('connexion.ejs', res.dataEJS);
 
   	
   	// Ejs rendering :
+	})
+
+	.post('/inscription', function(req, res){
+
+	// Getting the request parameters
+  	var reqEmail = req.body.email;
+  	var reqPassword = req.body.password;
+  	var reqFirstName = req.body.firstName;
+  	var reqLastName = req.body.lastName;
+
+  	if(userSessionModule.processSignupRequest(reqEmail, reqPassword, req.session)) 
+  	{
+  		res.dataEJS.inscription = {
+  			success : true,
+  			FirstName : reqFirstName,
+  			LastName : reqLastName,
+  			email : reqEmail
+  		};
+
+
+  		res.dataEJS.connected = false;
+  	}
+
+  	else {
+
+  		res.dataEJS.inscription = {
+  			success : false,
+  			email : reqEmail
+  		};
+
+  			res.dataEJS.connected = false;
+
+  	}
+
+  	res.render('connexion.ejs', res.dataEJS);
 	})
 
 
