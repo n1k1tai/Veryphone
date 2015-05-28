@@ -31,7 +31,7 @@ function processUserRequest(session)
 
 }
 
-function processSignupRequest(reqEmail, reqPassword, reqFirstName, reqLastName)
+function processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)
 {
 	if (testUserExistence(email)) return false;
 	else 
@@ -83,6 +83,7 @@ function testUserExistence(email)
 
 
 exports.processUserRequest = processUserRequest;
-exports.processLoginRequest = processLoginRequest;
-
+exports.processSigninRequest = processSignInRequest;
+exports.processSignupRequest = processSignUpRequest;
+exports.processSignOutRequest = processSignOutRequest;
 
