@@ -90,7 +90,7 @@ function testUserExistence(email)
 
 
 exports.processUserRequest = processUserRequest;
-exports.processSigninRequest = processSignInRequest;
-exports.processSignupRequest = processSignUpRequest;
+exports.processSignInRequest = processSignInRequest;
+exports.processSignUpRequest = processSignUpRequest;
 exports.processSignOutRequest = processSignOutRequest;
 
