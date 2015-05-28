@@ -90,7 +90,7 @@ function init()
 
 	
 
-	app.listen(8080);
+	app.listen(80);
 }
 
 exports.init = init;
