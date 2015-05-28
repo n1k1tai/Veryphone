@@ -13,10 +13,10 @@ userPanel[Nico.email] = Nico;
 
 
 
-function processUserRequest(req)
+function processUserRequest(session)
 {
 	//Creating the session :
-	var userSession = req.session;
+	var userSession = session;
 
 	
 	// Checking if an existing user is associated to this session

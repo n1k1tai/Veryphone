@@ -27,44 +27,44 @@ function init()
 	app.set('views', __dirname + '/views');
 	app.set('view engine', 'ejs');
 
+	//Adding a session middleware :
+	
+	app.use(function (req, res, next) {
+  		userSessionModule.processUserRequest(req.session);
+  		next();
+	});
+
+	//Adding a logging middleware :
+
+	app.use(function (req, res, next) {
+  		debug.alertDebug('Incoming request on page ' + req.baseUrl + "by " req.session.user.email + " from " req.ip);
+  		next();
+	});
+
+
 	// Get Routes listing :
 	app.get('/', function(req, res) {
-	debug.alertDebug("We've got incoming request for main");
-	userSessionModule.processUserRequest(req);
     res.render('main.ejs');
-
 
 	})
 
 	.get('/inscription', function(req, res){
-	debug.alertDebug("We've got incoming request for inscription");
-	userSessionModule.processUserRequest(req);
-
-
 	res.render('inscription.ejs');
-
 
 	})
 
 	.get('/connexion', function(req, res){
-	debug.alertDebug("We've got incoming request for connection");
-	userSessionModule.processUserRequest(req);
-
-
-
 	res.render('connexion.ejs');
-
 
 	})
 
-	// Post Routes listing :
 
+	// Post Routes listing :
 	.post('/connexion', function(req, res){
+
 	// Getting the request parameters
   	var reqEmail = req.body.email;
   	var reqPassword = req.body.password;
-
-  	debug.alertDebug("Got a new loggin request from user " + reqEmail + " with password " + reqPassword);
 
   	userSessionModule.processLoginRequest(reqEmail, reqPassword, req.session);
 

@@ -17,7 +17,7 @@ function user(email, password, firstName, lastName)
 		else return false;
 	}
 
-	this.setNewPassword = function(password)
+	this.setNewPassword =function(password)
 	{
 		password_ = password;
 	}
