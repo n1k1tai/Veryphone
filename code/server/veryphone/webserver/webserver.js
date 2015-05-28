@@ -23,7 +23,7 @@ function init()
 	var session = require('express-session');
 	app.use(session({secret: 'sessionpass'}));
 
-	app.use(express.static('/users/n/nicolave/scripting/Veryphone/code/website'));
+	app.use(express.static('/home/nikita/Scripting/Veryphone/code/website'));
 	app.set('views', __dirname + '/views');
 	app.set('view engine', 'ejs');
 
