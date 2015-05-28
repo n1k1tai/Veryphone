@@ -11,7 +11,7 @@ function user(email, password, firstName, lastName)
 	
 
 
-	function checkPassword(hash)
+	checkPassword : function(hash)
 	{
 		if (hash == password_) return true;
 		else return false;
