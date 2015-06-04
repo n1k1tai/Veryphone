@@ -5,6 +5,10 @@
             e.preventDefault();
             var message = { email : $('#email').val(), password : $('#pwd').val() };
 
+
+
+
+
             $.ajax({
                 type: 'POST',
                 data: message,
