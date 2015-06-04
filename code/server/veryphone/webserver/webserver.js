@@ -90,6 +90,7 @@ function init()
 
   	if (userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session))
   	{
+  		debug.alertDebug("Redirecting");
   		res.redirect('/');
   		res.end();
   	}
