@@ -92,7 +92,7 @@ function init()
   	{
   		debug.alertDebug("Redirecting");
   		req.method = 'get';
-  		res.redirect('/hjgyugyu');
+  		res.status(401).redirect('/');
   		res.end();
   	}
 	
