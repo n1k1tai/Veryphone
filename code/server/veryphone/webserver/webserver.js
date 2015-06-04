@@ -90,7 +90,9 @@ function init()
 
   	if (userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session))
   	{
-  		debug.alertDebug("Redirecting");
+  		var ajax = req.xhr;
+
+  		if (ajax) debug.alertDebug("AJAX");
   		req.method = 'get';
   		res.status(333).send("Redirect")
   		res.end();
