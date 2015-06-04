@@ -17,7 +17,7 @@
                     {
                         window.location = "/";
                     } 
-                    else if (data.responseJSON.msg==="redirect") window.location = data.responseJSON.location;
+                    else if (data.msg==="redirect") window.location = data.responseJSON.location;
 
             });
         });
