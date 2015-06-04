@@ -5,7 +5,7 @@
             e.preventDefault();
             if ( $('#pwd').val() == $('#pwdtest').val() )
             {
-                var msg = { email : $('#email').val(), password : $('#pwd').val(), firstName : $('#prenom').val(), lastName : $('#nom').val()  } );
+                var msg = { email : $('#email').val(), password : $('#pwd').val(), firstName : $('#prenom').val(), lastName : $('#nom').val()  };
                 $.ajax({
                     type: 'POST',
                     data: msg,
