@@ -88,9 +88,17 @@ function init()
   	var reqEmail = req.body.email;
   	var reqPassword = req.body.password;
 
-  	userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
-
-  	res.render('connexion.ejs', res.dataEJS);
+  	if (userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session))
+  	{
+  		res.redirect('/');
+  		res.end();
+  	}
+	
+	else
+  	{
+  		res.dataEJS[connexionFailure] = true;
+  		res.render('connexion.ejs', res.dataEJS);
+ 	}
 
 	})
 
@@ -122,10 +130,9 @@ function init()
 
   	if (signout == true ) userSessionModule.processSignOutRequest(req.session);
 
-  	res.redirect("/")
+  	res.redirect("/");
 
   	
-  	// Ejs rendering :
 	})
 
 
