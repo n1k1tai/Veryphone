@@ -92,10 +92,10 @@ function init()
   	{
   		var ajax = req.xhr;
 
-  		if (ajax) debug.alertDebug("AJAX");
-  		req.method = 'get';
-  		res.status(333).send("Redirect")
-  		res.end();
+  		if (ajax)
+  		{
+  			res.status(55).json({'msg':'redirect','location':'/login'});
+  		}
   	}
 	
 	else

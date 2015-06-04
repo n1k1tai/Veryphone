@@ -2,17 +2,23 @@
     {
         $('#submit').on('click', function(e)
         {
-            var data = {}
-            var email = $('email').val();
-            function validateEmail(email) {
-			    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-			    return re.test(email);
-			}
-			// if (validateEmail(email)) {
-            $.post("connexion", { email : $('#email').val(), password : $('#pwd').val() } );
-            // } 
-            // else {
-            // 	$.post("connexion", { email : "Email invalide", password : "" } );
-            // }
+            var message = { email : $('#email').val(), password : $('#pwd').val() };
+
+            $.ajax({
+                type: 'POST',
+                data: Msg,
+                url: '/connexion',
+                dataType: 'JSON'
+                }).success(function(data, textStatus, req ) {
+                    if(data.msg==="redirect") window.location = data.location;
+
+                }).error(function(data, textStatus, req) {
+                    if(req=="Unauthorized") 
+                    {
+                        window.location = "/connexion";
+                    } 
+            //...
+            });
         });
     });
+
