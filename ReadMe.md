@@ -3,6 +3,7 @@
 Dans le depot suivant sont les codes réalisés durant les sessions d'option.
 
 Pour démarrer le serveur, il suffit de lancer launch.sh
+
 Un fichier de log est disponible, recensant l'état du serveur, les connections ainsi que les erreurs éventuelles.
 
 Le code est divisé en deux parties : 
