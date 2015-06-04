@@ -17,7 +17,8 @@
                     {
                         window.location = "/connexion";
                     } 
-            //...
+                    else if (data.responseJSON.msg==="redirect") window.location = data.responseJSON.location;
+
             });
         });
     });
