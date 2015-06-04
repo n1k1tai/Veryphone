@@ -6,7 +6,7 @@
 
             $.ajax({
                 type: 'POST',
-                data: Msg,
+                data: message,
                 url: '/connexion',
                 dataType: 'JSON'
                 }).success(function(data, textStatus, req ) {
