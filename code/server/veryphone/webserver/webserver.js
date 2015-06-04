@@ -90,14 +90,12 @@ function init()
 
   	if (userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session))
   	{
-  		var ajax = req.xhr;
   		res.status(200).json({'msg':'redirect','location':'/'});
   	}
 	
 	else
   	{
-  		res.dataEJS[connexionFailure] = true;
-  		res.render('connexion.ejs', res.dataEJS);
+  		res.status(200).json({'msg':'redirect','location':'/connexion'});
  	}
 
 	})
@@ -112,12 +110,12 @@ function init()
 
   	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)) 
   	{
+  		res.status(200).json({'msg':'redirect','location':'/presentation'});
   		userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
-  		res.redirect("/presentation");
   	}
 
   	else {
-  		res.redirect("/inscription");
+  		res.status(200).json({'msg':'redirect','location':'/inscription'});
   	}
 
 	})
@@ -129,9 +127,6 @@ function init()
   	
 
   	if (signout == true ) userSessionModule.processSignOutRequest(req.session);
-
-  	res.redirect("/");
-
   	
 	})
 
