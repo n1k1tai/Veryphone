@@ -127,7 +127,7 @@ function init()
   	debug.alertDebug(signout);
   	
 
-  	if (signout == true) 
+  	if (signout == "true") 
   	{
   		userSessionModule.processSignOutRequest(req.session);
   		res.status(200).json({'msg':'redirect','location':'/'});
