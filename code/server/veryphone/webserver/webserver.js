@@ -91,11 +91,7 @@ function init()
   	if (userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session))
   	{
   		var ajax = req.xhr;
-
-  		if (ajax)
-  		{
-  			res.status(200).json({'msg':'redirect','location':'/'});
-  		}
+  		res.status(200).json({'msg':'redirect','location':'/'});
   	}
 	
 	else
