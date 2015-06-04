@@ -110,9 +110,8 @@ function init()
 
   	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)) 
   	{
-  		//res.status(200).json({'msg':'redirect','location':'/presentation'});
-  		//userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
-  		res.redirect('/');
+  		res.status(200).json({'msg':'redirect','location':'/presentation'});
+  		userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
   	}
 
   	else {
@@ -127,7 +126,13 @@ function init()
   	var signout = req.body.signout;
   	
 
-  	if (signout == true ) userSessionModule.processSignOutRequest(req.session);
+  	if (signout == true) 
+  	{
+  		userSessionModule.processSignOutRequest(req.session);
+  		res.status(200).json({'msg':'redirect','location':'/'});
+  	}
+  		
+
   	
 	})
 
