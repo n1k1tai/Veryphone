@@ -2,6 +2,7 @@
     {
         $('#submit').on('click', function(e)
         {
+            e.preventDefault();
             var message = { email : $('#email').val(), password : $('#pwd').val() };
 
             $.ajax({
