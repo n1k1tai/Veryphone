@@ -124,6 +124,7 @@ function init()
 
 	// Getting the request parameters
   	var signout = req.body.signout;
+  	debug.alertDebug(signout);
   	
 
   	if (signout == true) 
