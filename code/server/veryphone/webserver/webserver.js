@@ -94,7 +94,7 @@ function init()
 
   		if (ajax)
   		{
-  			res.status(240).json({'msg':'redirect','location':'/'});
+  			res.status(300).json({'msg':'redirect','location':'/'});
   		}
   	}
 	
