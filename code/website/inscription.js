@@ -9,7 +9,7 @@
                 $.ajax({
                     type: 'POST',
                     data: msg,
-                    url: '/connexion',
+                    url: '/inscription',
                     dataType: 'JSON'
                     }).success(function(data, textStatus, req ) {
                         if(data.msg==="redirect") window.location = data.location;
