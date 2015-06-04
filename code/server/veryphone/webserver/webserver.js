@@ -110,8 +110,9 @@ function init()
 
   	if(userSessionModule.processSignUpRequest(reqEmail, reqPassword, reqFirstName, reqLastName)) 
   	{
-  		res.status(200).json({'msg':'redirect','location':'/presentation'});
-  		userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
+  		//res.status(200).json({'msg':'redirect','location':'/presentation'});
+  		//userSessionModule.processSignInRequest(reqEmail, reqPassword, req.session);
+  		res.redirect('/');
   	}
 
   	else {
