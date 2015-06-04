@@ -15,7 +15,7 @@
                 }).error(function(data, textStatus, req) {
                     if(req=="Unauthorized") 
                     {
-                        window.location = "/connexion";
+                        window.location = "/";
                     } 
                     else if (data.responseJSON.msg==="redirect") window.location = data.responseJSON.location;
 
